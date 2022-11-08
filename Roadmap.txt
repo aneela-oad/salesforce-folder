@@ -1,0 +1,10 @@
+1. Admin
+	i. Objects
+	ii. Fields & Relationships
+	iii. Validation Rules
+	iv. Page & Layout
+	v.Process builders
+2. Apex
+3. SOQL & SOSL
+4. Apex Trigger
+5. LWC

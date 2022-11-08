@@ -1,0 +1,11 @@
+-----------INSTALLATION OF SFDX LOCAL SERVER-----------
+1. Delete yarn.lock file in sfdx folder if any
+2. npm install --global windows-build-tools
+2. Move python to C drive
+3. npm install -g node-gyp
+4. sfdx plugins:install @salesforce/lwc-dev-server
+5. sfdx plugins:update
+
+
+--------To retrieve a particular lwc component--------
+sfdx force:source:retrieve -m LightningComponentBundle:helloWorld

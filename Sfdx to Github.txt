@@ -1,0 +1,9 @@
+git init
+git -> is a version control -> it tracks all the changes that you're doing stage -> the files are ready to be committed 
+
+unstaged -> I still need to do some changes 
+commit -> Finalizing the changes that I have done
+pre-requisite for commit is to stage the changes
+
+
+https://www.youtube.com/watch?v=AxBu4JARPCM&t=122s
