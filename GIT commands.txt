@@ -1,0 +1,20 @@
+
+> Undoing a Specific Commit (That Has Been Pushed)
+
+I. Run git status and make sure you have a clean working tree.
+II. run the command git log --oneline and copy the hash code of the commit you want to undo
+III. Run git revert [hashcode] --no-edit.
+IV. Lastly, run git push
+V. NOTE: The --no-edit option prevents git from asking you to enter in a commit message. If you don't add that option, you'll end up in the VIM text editor. To exit VIM, press : to enter command mode, then q for quit, and finally hit Return (Mac) or Enter (Windows)
+
+
+> Undoing a Specific Commit (Before being Pushed)
+
+I. Run git reset --soft HEAD~
+II. Add a number to the end to undo multiple commits. For example, to undo the last 2 commits (assuming both have not been pushed) run git reset --soft HEAD~2
+
+
+
+LINK TO ARTICLE
+https://www.nobledesktop.com/learn/git/undo-changes
+
